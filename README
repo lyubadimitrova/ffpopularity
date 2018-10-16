@@ -18,15 +18,15 @@ Files
     |    and the cross-validation experiments (cv_xxx.ipynb).
     |    |
     |    |_ output/
-    |    |    Pickled feature vectors and labels, produced by stats.ipynb, and used in cv_xxx.ipynb.
-    |    |_ html/
-    |         The same notebooks, but in HTML format for viewing without Jupyter.
+    |         Pickled feature vectors and labels, produced by stats.ipynb, and used in cv_xxx.ipynb.
     |
     |_ README
     |    This file.
     |
     |_ requirements.txt
-         An image of my ao3 virtualenv. -> pip install -r requirements.txt
-                                        
+    |    An image of my ao3 virtualenv. -> pip install -r requirements.txt
+    |
+    |_ LICENSE
+         The license.
                                         
     
