@@ -1,0 +1,33 @@
+NLP for Social Media Project
+SS 2018
+
+Author: Lyubomira Dimitrova 
+E-Mail: dimitrova@cl.uni-heidelberg.de
+
+Files
+
+    |
+    |_ metadata/                    
+    |    CSV files with fanfic metadata, scraped from AO3.
+    |
+    |_ scripts/                       
+    |    Python scripts for the feature extraction, graph plotting, and utilities for the ML experiment. 
+    |    Intended for use as modules.
+    |
+    |_ notebooks/
+    |    Jupyter notebooks that import the scripts and run the feature extraction (stats.ipynb) 
+    |    and the cross-validation experiments (cv_xxx.ipynb).
+    |    |
+    |    |_ output/
+    |    |    Pickled feature vectors and labels, produced by stats.ipynb, and used in cv_xxx.ipynb.
+    |    |_ html/
+    |         The same notebooks, but in HTML format for viewing without Jupyter.
+    |
+    |_ README
+    |    This file.
+    |
+    |_ requirements.txt
+         An image of my ao3 virtualenv. -> pip install -r requirements.txt
+                                        
+                                        
+    
